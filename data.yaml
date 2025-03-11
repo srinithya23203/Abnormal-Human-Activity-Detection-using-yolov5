@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/Suspicious/train
+val: /content/drive/MyDrive/Suspicious/valid
+
+
+nc: 20
+names: ['bike', 'bin', 'breaking_the_door', 'car', 'crime', 'criminal', 'dashing_fence', 'dashing_the_fence', 'destroying_things', 'fallen_bike', 'fence', 'hammer', 'hitting_the_door', 'hitting_the_side_window', 'person', 'pushing_bike', 'scratching_the_car', 'store', 'street', 'trafficlights']
+
+roboflow:
+  workspace: projectobject-detection
+  project: crime-cz8sx
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/projectobject-detection/crime-cz8sx/dataset/4
